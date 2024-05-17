@@ -1,0 +1,63 @@
+# 바이트코드 파일
+__pycache__/
+*.py[cod]
+
+# C 확장 모듈
+*.so
+
+# 패키징 파일
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# PyInstaller
+# 보통 이 경로에 PyInstaller가 생성하는 파일이 저장됩니다.
+*.manifest
+*.spec
+
+# Jupyter 노트북
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+# 가상 환경을 프로젝트 내부에 생성하는 경우, 아래 경로를 제외시킵니다.
+# .env 파일은 시스템 환경 변수를 설정하는 데 사용될 수 있으므로 주의해서 사용하세요.
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder 프로젝트 설정
+.spyderproject
+.spyproject
+
+# Rope 프로젝트 설정
+.ropeproject
+
+# mkdocs 문서
+/site
+
+# mypy
+.mypy_cache/
+
+# VS Code 설정
+.vscode/
+
+# PyCharm 설정
+.idea/
+
+# DS_Store는 MacOS에서 생성하는 숨김 파일입니다.
+.DS_Store
